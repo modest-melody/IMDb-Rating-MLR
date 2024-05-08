@@ -1,0 +1,134 @@
+#TOC.toc {
+    position: fixed;
+    left: 110px;
+    top: 120px;
+    bottom: 20px;
+    overflow: auto;
+    height: 80%;
+    width: 375px; 
+    margin-bottom: 15px;
+    background-color: #F0F0F0;
+    font-weight: bold;
+    z-index: 1000; 
+}
+
+.page-header {
+    background-color: red;
+}
+
+.header-title {
+    background: linear-gradient(to bottom, darkred 0%, darkred 30%, #F0F0F0 80%);
+    padding-bottom: 65px;
+}
+
+.header-title-wrap {
+    padding-top: 0px; 
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.page-header h1, .page-header p {
+    color: black;
+    font-size: 24px; 
+    line-height: 1.2; 
+}
+
+h1.title, h1.toc-ignore, h1.entry-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    font-size: 40px; 
+}
+
+h3.author {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    font-size: 36px; 
+}
+
+.btn-primary, pre {
+    background-color: #F0F0F0;
+    color: black;
+}
+
+th {
+    background-color: darkred;
+    color: white;
+}
+
+a {
+    color: red !important;
+}
+
+p {
+    color: black !important;
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+.entry-header {
+    display: none;
+}
+
+.entry-content {
+    margin-top: 260px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+/* Style for OUTPUT */
+pre {
+    color: #FFFFFF !important; /* Sets the text color for the code to white */
+    background-color: #5C5C5C !important; /* Sets the background color for the code to a dark blue */
+}
+
+/* Style for R INPUT and objects*/
+pre.r {
+    color: black !important; 
+    background-color: #F0F0F0 !important; 
+    border-radius: 10px !important; 
+}
+
+/* Style for INPUT commentsin the code */
+span.co {
+    color: #FF7373 !important; 
+}
+
+/* Style for INPUT keywords in the code (like if, else, for) */
+span.cf {
+    color: #FFD061 !important; /* 
+    font-weight: normal !important; 
+
+/* Style for INPUT functions (text enclosed in quotes) in the code */
+span.fu {
+    color: #FF2E2E !important; 
+}
+
+/* Style for INPUT arguments in the code */
+span.at {
+    color: #5C5C5C !important;
+}
+
+/* Style for INPUT strings (text enclosed in quotes) in the code */
+span.st {
+    color: #209400 !important;
+}
+
+/* Style for INPUT numbers in the code */
+span.dv {
+    color: #00CFF2 !important;
+}
+
+/* Style for INPUT literals (like TRUE, FALSE, NULL) in the code */
+span.cn {
+    color: #FF58CC !important;
+}
+
+/* Style for INPUT connecting symbols (% $) in the code */
+span.sc {
+    color: #0018E6 !important;
+}
